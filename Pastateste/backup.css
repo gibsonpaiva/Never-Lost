@@ -1,0 +1,48 @@
+html{
+    font-family: 'Source Sans Pro', sans-serif;
+    background: #2e3131;
+}
+
+ul li{
+    display: block;
+    display: inline;
+    padding: 5px;
+}
+ul li a{
+    text-decoration: none;
+    background: #dadfe1;
+    border-radius: 7px;
+    font-size: 30px;
+    padding: 0px 7px;
+    text-shadow: 1px 1px 1px black;
+    color:black;
+    cursor: pointer;
+}
+ul li a:hover{
+    background: #4daf7c;
+    border-radius: 7px;
+   
+}
+
+.menu{
+    position: absolute;
+    top: 70px;
+    left: 600px;
+}
+.lost{
+   
+    
+    color: #3fc380;
+    font-family: 'Raleway', sans-serif;
+    font-size: 55px;
+    text-align: center; 
+    
+    
+    
+}
+img{
+    display: block;
+    margin-left: -10px;
+    width: 15%;
+    
+}

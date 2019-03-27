@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="css/layout.css">
+    <link rel="icon" href="img/location.ico"> 
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu+Condensed" rel="stylesheet">
+    <title>Clientes</title>
+</head>
+
+<body>
+    <div>
+        <div id="cabecalho">
+            <div class="cabecalho-titulo">Clientes</div>
+        </div>
+        <div id="menu">
+            <div class="menu-basico">
+                <a href="index.html"> <img src="img/neveroriginal.png" class="menu-basico-cabecalho"></a>
+
+                <ul class="menu-lista">
+                    <li class="menu-item"><a href="horario.html"class="menu-link">Horario</a></li>
+                    <li class="menu-item-acionador" onclick="ExibeOcultaFilhos('menuUsuario')"><span class="menu-link">Mapas</span>
+                        <ul class="menu-item-escondido" id="menuUsuario">
+                            <li class="menu-item"><a href="mapauna.html"class="menu-link">Una</a></li>                   
+                            <li class="menu-item"><a href="#"class="menu-link">Outros</a></li>
+                        </ul>  
+                    </li> 
+                    <li class="menu-item-selecionado"><a href="clientes.html"class="menu-link">Clientes</a></li>
+                    <li class="menu-item"><a href="servicos.html"class="menu-link">Serviços</a></li>
+                    <li class="menu-item"><a href="sobre.html"class="menu-link">Sobre</a></li>
+                    <li class="menu-item"><a href="contato.html"class="menu-link">Contato</a></li>
+                    
+                </ul>
+            </div>
+        </div>
+        <div id="main">                        
+                <img src="img/neveroriginal.png ">
+                <h1>Bem Vindo ao NeverLost!</h1>
+                <p class="text1"> "A praticidade na palma da sua mão" </p>
+            </div>
+    </div>
+</body>
+
+</html>
+
+<script src="js/mapas.js"></script>
